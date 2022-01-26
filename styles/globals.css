@@ -2,4 +2,78 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+/*Form*/
+
+form h1 {
+ font-weight: 500;
+  font-size: 2.4rem;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+form input, form label, textarea{
+  font-size: 1.6rem;
+}
+
+form *{
+  color: #fff;
+  
+}
+
+form {
+  background-color: #164A41;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  justify-content: space-around;
+  align-items: center;
+}
+
+input, textarea {
+  background-color: #9DC88D;
+  border-radius: 5px;
+  border-color: #BCBCBC;
+  margin-bottom: 2vh;
+  padding-left: 1vh;
+}
+
+input {
+  height: 4.5vh;
+  
+  margin-bottom: 2vh;
+}
+
+label {
+  padding-left: 1vh;
+  margin-bottom: 0.4vh;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+#check-container{
+  width: 75%;
+  display: flex;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #9DC88D;
+}
+
+input[type=submit]{
+background-color: #F1B24A;
+padding: 0 1.6rem;
+margin-top: 2vh;
+margin-bottom: 2vh;
+height: 5vh;
+width: 40%;
 }

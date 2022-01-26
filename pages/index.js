@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import UserForm from '../components/UserForm'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main >
-       
+       <UserForm/>
       </main>
 
     
