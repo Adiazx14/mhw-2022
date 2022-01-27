@@ -33,7 +33,7 @@ form {
   align-items: center;
 }
 
-input, textarea {
+form input, textarea {
   background-color: #9DC88D;
   border-radius: 5px;
   border-color: #BCBCBC;
@@ -41,7 +41,7 @@ input, textarea {
   padding-left: 1vh;
 }
 
-input {
+form input {
   height: 2.5rem;
   
   margin-bottom: 2vh;
@@ -76,4 +76,81 @@ margin-top: 2vh;
 margin-bottom: 2vh;
 height: 2.5rem;
 width: 40%;
+}
+
+/* Table */
+
+#IssueTable > * {
+  color: #fff;
+}
+
+.table-header, .table-footer, tr {
+  height: 7.45vh;
+}
+
+#IssueTable {
+  height: 100vh;
+}
+
+table {
+  width: 100%;
+  
+}
+
+tr {
+  text-align: center;
+}
+.filterer {
+  background-color: #9DC88D;
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+tr {
+  width: 100%;
+}
+
+tr {
+  
+  background-color: #9DC88D;
+}
+
+.table-header, thead tr:nth-child(1) {
+  background-color: #164A41;
+}
+
+
+.table-header {
+  display: flex;
+  justify-content: center;
+  padding: 1.8vh;
+}
+
+
+.filterer {
+  width: 30%;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  border: none;
+  margin: 0 1vw;
+}
+
+.table-footer {
+  background-color: #164A41;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.table-footer p:last-child, .table-footer p:first-child {
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+
+.table-footer p {
+  cursor: pointer;
 }

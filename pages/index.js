@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import IssueTable from '../components/IssueTable'
 import UserForm from '../components/UserForm'
 
 export default function Home() {
@@ -12,7 +13,9 @@ export default function Home() {
       </Head>
 
       <main >
-       <UserForm/>
+      {/*  <UserForm/> */}
+      <IssueTable/>
+      
       </main>
 
     
