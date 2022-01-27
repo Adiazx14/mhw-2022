@@ -13,8 +13,8 @@ export default function Home() {
       </Head>
 
       <main >
-      {/*  <UserForm/> */}
-      <IssueTable/>
+       <UserForm/>
+     
       
       </main>
 
