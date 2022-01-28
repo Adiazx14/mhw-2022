@@ -1,8 +1,8 @@
-import { useEffect } from "react/cjs/react.development"
+
 import categories from "../../components/categories"
 const Issue = ({issue})=> {
 
-    useEffect(()=>{console.log(issue)},[])
+   
     return (
         <div className="issue">
             <h2>issue id: {issue["ticket_id"]}</h2>
